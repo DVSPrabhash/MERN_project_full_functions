@@ -58,7 +58,7 @@
   border-radius: 20px 20px 0 0;
   font-family: "Montserrat", sans-serif;
   transition: 0.3s;
-  margin-top: 40%;
+  margin-top: 30%;
   margin-bottom: 5em;
 } 
 
@@ -68,6 +68,7 @@ cursor: not-allowed;
 }
 
 .btn212{
+  
   position: relative;
   size: 20px;
   font-weight: bold;
