@@ -121,7 +121,9 @@ const USOCard = ({ match, history }) => {
             <div className="statustxtdiv211">
               <p className="ststxt">Payment Status</p><br />
               <p className={String(paymentInfo && paymentInfo.paymentStatus).includes('Paid') ? " statustxt211 green211" : "statustxt211 red211"}>{paymentInfo && paymentInfo.paymentStatus}</p><br />
-              <Link to={`/newbill/${order.userID}`}><button className={String(paymentInfo && paymentInfo.paymentStatus).includes('Paid') ? "btn211 disabled" : "btn211"}>Pay</button></Link>
+              <Link to={`/newbill/`}><button className={String(paymentInfo && paymentInfo.paymentStatus).includes('Paid') ? "btn211 disabled" : "btn211"}>Pay</button></Link>
+              {/* <Link to={`/newbill/${order.userID}`} */}
+            
             </div>
             <div className="stsimgcont211"><img className="stsimg211" src="../images/uovPayment.png" /></div>
           </div>
